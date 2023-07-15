@@ -49,5 +49,10 @@ switch (status)
 }
 
 Person person = new Person();
-Person.Count++;
+int i = 0;
+while (i < 5)
+{
+    Person.Count++;
+    i++;
+}
 Console.WriteLine(Person.Count);
